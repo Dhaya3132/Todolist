@@ -1,0 +1,79 @@
+*
+{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container
+{
+    background:#618adc;
+    margin: 0%;
+    padding: 10px;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.todo-app
+{
+    align-items: center;
+    background-color: #ffff;
+    border-radius: 10px;
+    margin: 100px auto 20px;
+    width: 100%;
+    max-width: 540px;
+    padding: 40px 30px 20px;
+
+}
+
+.todo-app h2{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    font-weight: 15px;
+}
+button
+{
+    border: 0;
+    outline: 0;
+    padding: 15px 20px;
+    background-color: #618adc;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    cursor:pointer;
+}
+
+ul li
+{
+    list-style: none;
+    font-size: 15px;
+    padding: 15px 15px 20px 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#todocontainer
+{
+    cursor: pointer;
+}
